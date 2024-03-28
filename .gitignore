@@ -7,10 +7,10 @@ kdev4/
 
 
 .clang
-/dist/lib
-*/Build
-*/Project
-/Fuji/Middleware/*/obj
+# /dist/lib
+# */Build
+# */Project
+# /Fuji/Middleware/*/obj
 /dist/Samples/*/Build
 /dist/Samples/ipch
 /dist/Samples/*/*_Debug
@@ -50,3 +50,7 @@ Makefile
 *.chw
 
 .fuse_*
+
+*.tlog
+*.lastbuildstate
+*.log
